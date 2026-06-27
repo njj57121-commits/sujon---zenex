@@ -154,7 +154,7 @@ def is_under_maintenance(uid):
 # ==================== MULTIPLE ADMINS CONFIGURATION ====================
 ADMINS = [6377180383]  
 
-OTP_GROUP_ID = -1004414240760
+OTP_GROUP_ID = -1004479041866
 
 request_queue = asyncio.Queue() 
 MAX_WORKERS = 50000 
