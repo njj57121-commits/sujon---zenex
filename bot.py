@@ -43,7 +43,7 @@ def load_settings():
         default = {
             "max_numbers_per_user": 10000,  # Max Numbers Per Batch
             "welcome_message": WELCOME_MESSAGE,
-            "otp_group_url": "https://t.me/Otp_recivedbot",
+            "otp_group_url": "https://t.me/otp_groupbot",
             "channel_url": "https://t.me/Otp_recivedbot",
             "support_username": "@Sujon2",
             "maintenance_mode": False,
@@ -103,7 +103,7 @@ def load_settings():
         return {
             "max_numbers_per_user": 10000,
             "welcome_message": WELCOME_MESSAGE,
-            "otp_group_url": "https://t.me/Otp_recivedbot",
+            "otp_group_url": "https://t.me/otp_groupbot",
             "channel_url": "https://t.me/Otp_recivedbot",
             "support_username": "@Sujon2",
             "maintenance_mode": False,
@@ -152,7 +152,7 @@ def is_under_maintenance(uid):
     return settings.get("maintenance_mode", False) and not is_admin(uid)
 
 # ==================== MULTIPLE ADMINS CONFIGURATION ====================
-ADMINS = [6377180383]  
+ADMINS = [388288907]  
 
 OTP_GROUP_ID = -1004479041866
 
